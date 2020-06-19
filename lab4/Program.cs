@@ -10,6 +10,14 @@ namespace lab4
     {
         static void Main(string[] args)
         {
+            // instantiate object of type Person
+            Person Nurlybek = new Person("Nurlybek", 20);
+
+            // uses SaysHello method with . accessor
+            Nurlybek.SaysHello();
+
+            Console.ReadKey();
+
         }
     }
 }
